@@ -1,9 +1,9 @@
-body{background-color: rgba(219, 90, 213, 0.747);}
+body{background-color: rgb(235, 167, 128, 0.747);}
 p{text-align: center;}
 h1{text-align: center;}
 h2{text-align: center;}
 h3{text-align: center;}
-b{background-color: rgb(196, 133, 202);}
+b{background-color: rgb(201, 143, 109, 0.74);}
 #banner {
     width: 50%
 }
@@ -14,5 +14,5 @@ b{background-color: rgb(196, 133, 202);}
 }
 
 .principal {
-    background-color: rgba(192, 132, 189, 0.63);
+    background-color: rgba(182, 130, 100, 0.767);
 }
