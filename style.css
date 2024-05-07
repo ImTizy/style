@@ -3,9 +3,9 @@ p{text-align: center;}
 h1{text-align: center;}
 h2{text-align: center;}
 h3{text-align: center;}
-b{background-color: rgb(201, 143, 109, 0.74);}
+b{background-color: rgb(228, 162, 121);}
 #banner {
-    width: 50%
+    width: 70%
 }
 
 .container {
@@ -14,5 +14,5 @@ b{background-color: rgb(201, 143, 109, 0.74);}
 }
 
 .principal {
-    background-color: rgba(182, 130, 100, 0.767);
+    background-color: rgb(228, 162, 121);
 }
