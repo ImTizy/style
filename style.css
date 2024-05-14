@@ -10,15 +10,15 @@ body{
 }
 
 header{
-     background-color: rgba(211, 178, 132);
+     background-color: rgb(201, 150, 118);
 
 }
 main{
-     background-color: rgba(219, 156, 116, 0.726);
+     background-color: rgb(216, 162, 128);
 
 }
 footer{
-     background-color: rgb(211, 178, 132);
+     background-color: rgb(201, 150, 118);
 
 }
 #banner {
@@ -31,5 +31,5 @@ footer{
 }
 
 .principal {
-    background-color: rgb(228, 162, 121);
+    background-color: rgb(201, 150, 118);
 }
