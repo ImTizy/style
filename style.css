@@ -1,35 +1,126 @@
-body{background-color: rgb(235, 167, 128, 0.747);}
-p{text-align: center;}
-h1{text-align: center;}
-h2{text-align: center;}
-h3{text-align: center;}
-b{background-color: rgb(228, 162, 121);}
-
-
-body{
+header h1 img{
+    width: 125px;
 }
 
-header{
-     background-color: rgb(201, 150, 118);
-
-}
-main{
-     background-color: rgb(216, 162, 128);
-
-}
-footer{
-     background-color: rgb(201, 150, 118);
-
-}
-#banner {
-    width: 70%
+header {
+    background-color: rgb(235, 167, 128, 0.747);
+    padding: 20px 0;
 }
 
-.container {
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+nav a:hover{
+    color:rgb(201, 35, 35);
+    text-decoration: underline;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.servicos li {
+    display: inline-block;
     text-align: center;
-
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 
-.principal {
-    background-color: rgb(201, 150, 118);
+.servicos li:hover {
+    border-color:rgb(48, 0, 223);
+}
+
+.servicos li:active {
+    border-color: rgb(17, 17, 17);;
+}
+
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+
+.servicos li img {
+    width: 250px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servico-descricao {
+    font-size: 18px;
+}
+
+.servico-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(235, 167, 128, 0.747);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+.copyright {
+    color: black;
+    font-size: 17px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 60px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
