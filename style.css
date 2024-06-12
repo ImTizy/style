@@ -3,7 +3,7 @@ header h1 img{
 }
 
 header {
-    background-color: rgb(235, 167, 128, 0.747);
+    background-color: rgba(126, 126, 126, 0.747);
     padding: 20px 0;
 }
 
@@ -88,7 +88,7 @@ nav a:hover{
 }
 
 footer {
-    background-color: rgb(235, 167, 128, 0.747);
+    background-color: rgba(126, 126, 126, 0.747);
     text-align: center;
     padding: 40px 0;
 }
@@ -127,4 +127,22 @@ form label, form p {
 
 .checkbox {
     margin: 20px 0;
+} 
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(161, 160, 159);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.enviar:hover {
+    background-color: rgb(87, 87, 87);
+    transform: scale(1.2)
 }
