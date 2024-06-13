@@ -146,3 +146,18 @@ form label, form p {
     background-color: rgb(87, 87, 87);
     transform: scale(1.2)
 }
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: rgb(201, 201, 201);
+    color:white;
+    font-weight: bold;
+}
+
+td, th {
+    border:1px solid black;
+    padding: 8px 15px;
+}
