@@ -161,3 +161,16 @@ td, th {
     border:1px solid black;
     padding: 8px 15px;
 }
+
+/* css da página principal */
+
+#banner {
+    width: 150%;
+}
+
+.principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
