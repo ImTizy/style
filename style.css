@@ -12,6 +12,10 @@ nav li {
     margin: 0 0 0 15px;
 }
 
+h2 {
+    text-align: center;
+}
+
 nav a{
     text-transform: uppercase;
     color:black;
@@ -33,7 +37,7 @@ nav {
 }
 
 nav a:hover{
-    color:rgb(201, 35, 35);
+    color:rgb(197, 197, 197);
     text-decoration: underline;
 }
 
@@ -57,7 +61,7 @@ nav a:hover{
 }
 
 .servicos li:hover {
-    border-color:rgb(48, 0, 223);
+    border-color:rgb(182, 182, 182);
 }
 
 .servicos li:active {
@@ -165,7 +169,7 @@ td, th {
 /* css da página principal */
 
 #banner {
-    width: 150%;
+    width: 95%;
 }
 
 .principal {
