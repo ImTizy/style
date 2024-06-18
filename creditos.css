@@ -64,6 +64,61 @@ main {
     margin: 0 60px;
 }
 
-.textocreditos {
-    font-size: 90px;
+.creditos {
+    color:rgb(173, 130, 130);
+    padding: 0 15px 0;
+    margin: 20px;
+}
+
+.texto1 {
+        font-size: 1em;
+        margin: 20px 0 0em;
+        clear: left;
+        font-weight: bold;
+        padding: 0 15px 0;
+}
+
+.política-privacidade {
+    padding: 80px 20px 0;
+    color:rgb(173, 130, 130);
+}
+
+.contato {
+    padding: 80px 20px 0;
+    color:rgb(173, 130, 130);
+}
+
+.direitos-autorais {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+}
+
+.update {
+    padding: 80px 20px 0;
+}
+
+.color-update {
+    color:rgb(173, 130, 130);
+}
+
+.agradecimentos {
+    padding: 50px;
+    color:rgb(173, 130, 130);
+}
+
+.matias {
+    text-align: center;
+    padding: 10px 30px 0;
+    color: blue;
+}
+
+.davi {
+    text-align: center;
+    padding: 10px 30px 0;
+    color: blue;
+}
+
+.juntos {
+    padding: 65px 30px 0;
+    color: rgb(33, 137, 221);
 }
