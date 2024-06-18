@@ -181,3 +181,7 @@ td, th {
     clear: left;
     font-weight: bold;
 }
+
+.img-banner {
+    text-align: center
+}

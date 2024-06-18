@@ -1,0 +1,69 @@
+header h1 img{
+    width: 125px;
+}
+
+header {
+    background-color: rgba(126, 126, 126, 0.747);
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+nav a:hover{
+    color:rgb(197, 197, 197);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(126, 126, 126, 0.747);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+.copyright {
+    color: black;
+    font-size: 17px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 60px;
+}
+
+.textocreditos {
+    font-size: 90px;
+}
