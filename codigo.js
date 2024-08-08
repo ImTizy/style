@@ -1,14 +1,13 @@
-let nota1
-let nota2
-let nota3
+//declaração de variáveis
+let quantidade = 0;
+let total = 0;
 
-nota1 = parseInt(prompt("Qual a noita do 1 trimestre?"))
-nota1 = parseInt(prompt("Qual a noita do 2 trimestre?"))
+function Calculabruno(){
 
-resultado = 180 - (nota1+nota2);
+//prompt para entrada de dados
+quantidade = parseInt(prompt("Digite a quantidade de vezes que foi preciso mandar ele calar a boca:"));
 
-if(resultado> 0){
-    alert("Precisa de" + resultado + "para passar");
-} else {
-    alert("Parabéns! Você já está aprovado")
+total = total + quantidade;
+
+alert(total);
 }
